@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color:aquamarine;
+}
+header {
+    height: 100px; 
+    width: 100%; 
+    padding: 15px 0px;
+    background-color:pink;
+    text-align:center;
+}
+.kop2 {
+    font-family: Verdana, sans-serif;
+    font-size: 22;
+    font-weight: 600;
+    color: purple;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+ul a {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    width: 85px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 6px;
+    font-family: Verdana, sans-serif;
+    font-size: 15;
+    font-weight: 550;
+    text-align:center;
+    background-color: purple;
+    color: white;
+}
+li:hover {
+    background-color: lightgoldenrodyellow;
+    color: purple;
+}
+ul a:hover {
+    color: purple;
+}
+.plaatjemettekst {
+    font-family: Verdana, sans-serif; 
+    color: purple; 
+    font-size: 14px; 
+    font-weight: 400; 
+    display: inline-block; 
+    margin-left: 200px; 
+    margin-right: 200px; 
+    margin-top: 35px;
+}
+img {
+    float: left;
+    margin-right: 10px;
+    background-color:  purple; 
+    border-style: solid; 
+    border-width: 5px; 
+    height: 200px; 
+    border-radius: 8px;
+}
+#contactopnemen {
+    font-family: Verdana, sans-serif; 
+    font-size: 13pt; 
+    font-weight: 550;
+    color: purple; 
+}
+.formulier {
+    margin-left: 500px;
+    
+}
+input[type="text"], [type="email"], textarea, button {
+    display: block; 
+    margin: 15px 0px; 
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    font-family: Verdana, sans-serif; 
+    font-size: 11pt; 
+    font-weight: 400; 
+    border-radius: 8px; 
+    border: 0; 
+    box-shadow: 2px 2px 5px pink;
+}
+button:active {
+    padding: 0px 15px;
+    background-color: pink;
+    font-weight: 600}
+
+textarea {
+    min-height: 150px;
+    padding: 15px 15px;
+}
+.cv { 
+    font-family: Verdana, sans-serif; 
+    font-size: 15px; 
+    font-weight: 400; 
+    text-align: left; 
+    margin-left: 33%;
+    margin-right: 33%;
+}
+td {
+    min-width: 250px;
+    height: 30px;
+}
+footer {
+    background-color: purple; 
+    color: lightgoldenrodyellow; 
+    height: 50px; 
+    padding-top: 25px;
+    text-align: center;
+    font-family: Verdana, sans-serif; 
+    font-size: 15; 
+    font-weight: 550;
+}
